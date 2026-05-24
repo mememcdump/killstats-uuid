@@ -1,0 +1,12 @@
+dev\mememc\killstatistics\KillsPlaceholderExpansion$BetterTeamsData.class
+dev\mememc\killstatistics\KillListener.class
+dev\mememc\killstatistics\KillsCommand.class
+dev\mememc\killstatistics\KillsPlaceholderExpansion.class
+dev\mememc\killstatistics\KillStatisticsService.class
+dev\mememc\killstatistics\KillStatsCommand.class
+dev\mememc\killstatistics\KillStatisticsPlugin.class
+dev\mememc\killstatistics\SQLiteStorage$LoadedData.class
+dev\mememc\killstatistics\KillsCommand$BetterTeamsSnapshot.class
+dev\mememc\killstatistics\SQLiteStorage.class
+dev\mememc\killstatistics\CreditsCommand.class
+dev\mememc\killstatistics\MessageConfig.class
